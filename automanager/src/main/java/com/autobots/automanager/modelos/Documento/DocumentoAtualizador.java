@@ -1,8 +1,9 @@
-package com.autobots.automanager.modelos;
+package com.autobots.automanager.modelos.Documento;
 
 import java.util.List;
 
 import com.autobots.automanager.entidades.Documento;
+import com.autobots.automanager.modelos.StringVerificadorNulo;
 
 public class DocumentoAtualizador {
 	private StringVerificadorNulo verificador = new StringVerificadorNulo();

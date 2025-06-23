@@ -1,6 +1,10 @@
-package com.autobots.automanager.modelos;
+package com.autobots.automanager.modelos.Cliente;
 
 import com.autobots.automanager.entidades.Cliente;
+import com.autobots.automanager.modelos.EnderecoAtualizador;
+import com.autobots.automanager.modelos.StringVerificadorNulo;
+import com.autobots.automanager.modelos.Documento.DocumentoAtualizador;
+import com.autobots.automanager.modelos.Telefone.TelefoneAtualizador;
 
 public class ClienteAtualizador {
 	private StringVerificadorNulo verificador = new StringVerificadorNulo();

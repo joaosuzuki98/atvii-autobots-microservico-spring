@@ -1,8 +1,9 @@
-package com.autobots.automanager.modelos;
+package com.autobots.automanager.modelos.Telefone;
 
 import java.util.List;
 
 import com.autobots.automanager.entidades.Telefone;
+import com.autobots.automanager.modelos.StringVerificadorNulo;
 
 public class TelefoneAtualizador {
 	private StringVerificadorNulo verificador = new StringVerificadorNulo();
